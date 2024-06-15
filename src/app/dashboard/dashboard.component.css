@@ -1,0 +1,11 @@
+mat-card {
+  width: 30%;
+  height: 40%;
+  margin: 2%;
+}
+
+.cardContainer {
+  width: 100%;
+  display: flex;
+  height: -webkit-fill-available;
+}

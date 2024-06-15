@@ -1,0 +1,8 @@
+<nav mat-tab-nav-bar [tabPanel]="tabPanel">
+  <a mat-tab-link routerLink="/dashboard" routerLinkActive="active" ariaCurrentWhenActive="page">Dashboard</a>
+  <a mat-tab-link routerLink="/transactions" routerLinkActive="active" ariaCurrentWhenActive="page">Transactions</a>
+</nav>
+
+<mat-tab-nav-panel #tabPanel>
+  <router-outlet />
+</mat-tab-nav-panel>

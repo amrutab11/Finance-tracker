@@ -1,0 +1,41 @@
+/* Style for the button container */
+.button-container {
+  margin-bottom: 20px;
+}
+
+/* Style for the buttons */
+button.mat-raised-button {
+  margin-right: 10px;
+}
+
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Style for table headers */
+th.mat-header-cell {
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style for table cells */
+td.mat-cell {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Style for active links */
+a.active {
+  color: #007bff;
+}
+
+/* Style for icons inside buttons */
+mat-icon {
+  vertical-align: middle;
+  margin-right: 5px;
+}

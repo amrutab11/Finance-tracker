@@ -1,0 +1,52 @@
+/* Style for the form */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for the form fields */
+mat-form-field {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style for the labels */
+mat-label {
+  color: #333;
+}
+
+/* Style for the input fields */
+input.mat-input-element {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+}
+
+/* Style for the select dropdown */
+mat-select {
+  width: 100%;
+}
+
+/* Style for the submit button */
+button[type='submit'] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the line breaks */
+br {
+  margin-bottom: 10px;
+}
